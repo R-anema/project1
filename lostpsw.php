@@ -1,7 +1,8 @@
 <?php
 //lost password form
  ?>
-
+<!DOCTYPE html>
+<html>
 <form action="signup.php" method="POST">
   <p>
     <label> Email </label>
@@ -9,6 +10,8 @@
     <br>
   </p>
 
-<button type="submit"><span>Lost password request</span></button>
+<button type="submit"><span>Verstuur Aanvraag</span></button>
 
 </form>
+</html>
+
