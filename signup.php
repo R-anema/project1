@@ -2,6 +2,8 @@
 //new user form
  ?>
 
+ <!DOCTYPE html>
+ <html>
 <form action="signup.php" method="POST">
   <p>
     <label> Username </label>
@@ -44,6 +46,7 @@
       <input id="hwachtwoord" value="" name="hwachtwoord" type="text" required="required">
     <br>
   </p>
-<button type="submit"><span>Word Gebruiker</span></button>
 
+  <button type="submit"><span>Word Gebruiker</span></button>
 </form>
+</html>
