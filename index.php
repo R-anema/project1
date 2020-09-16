@@ -9,20 +9,17 @@
 <form action="index.php" method="POST">
 	<p>
 		<label> Username </label>
-			<input id="username" value="" name="username" type="text" required="required">
-		<br>
+			<input id="username" value="" name="username" type="text" required="required"><br>
 	</p>
 
 	<p>
 		<label> Password </label>
-			<input id="password" value="" name="password" type="text" required="required">
-		<br>
+			<input id="password" value="" name="password" type="text" required="required"><br>
 	</p>
 
-<button type="submit"><span>Login</span></button>
-<br>
-<button type="submit"><span>Create Account</span></button>
-<button type="submit"><span>Lost Password Link</span></button>
+<input type="sumbit" name="login" value="login"><span>Login</span></button>
+<a href="lostpsw.php"> Watchwoord veloren?</a>
+<a href="signup.php"> Ik heb nog geen account.</a>
 
 </form>
 
