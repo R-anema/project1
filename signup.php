@@ -4,7 +4,15 @@ include 'database.php';
 
 $db = new database('localhost', 'root', '', 'project1', 'utf8_decode(data)');
 
- ?>
+$POST
+
+if (condition) {
+  # code...
+} else (){
+
+}
+?>
+
 
 <html>
   <form action="signup.php" method="POST">
