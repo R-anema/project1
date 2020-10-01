@@ -1,17 +1,23 @@
 <?php
-//lost password form
+//lost password form goes here
  ?>
+
+
 <!DOCTYPE html>
 <html>
-<form action="signup.php" method="POST">
-  <p>
-    <label> Email </label>
-      <input id="email" value="" name="email" type="text" required="required">
-    <br>
-  </p>
+  <form action="lostpsw.php" method="POST">
+    <p>
+      <label> Email </label>
+        <input id="email" value="" name="email" type="text" required="required">
+      <br>
+    </p>
 
-<button type="submit"><span>Verstuur Aanvraag</span></button>
+    <p>
+      <label> Submit </label>
+          <input type= "submit" value ="Submit"><span>Verstuur Aanvraag</span>
+      <br>
+    </p>
 
-</form>
+  </form>
 </html>
 
