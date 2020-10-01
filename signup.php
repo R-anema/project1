@@ -1,5 +1,9 @@
 <?php
 //new user form
+include 'database.php';
+
+$db = new database('localhost', 'root', '', 'project1', 'utf8_decode(data)');
+
  ?>
 
 <html>

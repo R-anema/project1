@@ -16,3 +16,9 @@ CREATE TABLE Persoon (
     gebruikersnaam varchar(255) not null,
     FOREIGN KEY(account_id) REFERENCES Account(ID)
 );
+
+Insert into Account(email, password)
+Values ('Natalie@inmail.com','populis');
+
+Insert into Persoon(account_id, naam, tussenvoegsel, achternaam, gebruikersnaam)
+Values (3, 'Natalie', 'per', 'Parks', 'Natalieparks');
