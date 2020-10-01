@@ -17,11 +17,14 @@ class database{
 		$this->$charset = $charset;
 		$this->$db = $db;
 
-		try{
-			//need to connect to db localhost idk how
+	try {
+		//indented with tab
+		$this->host = 'localhost';
+	}catch(PDOexceptionTBa){
+		rollbacktba();
+	}
 
-		}
-	};
+	}
 };
 
 ?>
