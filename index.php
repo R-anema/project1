@@ -22,5 +22,4 @@
 <a href="signup.php"> Ik heb nog geen account.</a>
 
 </form>
-
 </html>
