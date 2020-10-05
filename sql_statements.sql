@@ -1,3 +1,4 @@
+Drop database if EXISTS persoon1;
 Create database persoon1;
 Use persoon1;
 
