@@ -2,15 +2,30 @@
 //new user form
 include 'database.php';
 
-$db = new database('localhost', 'root', '', 'project1', 'utf8_decode(data)');
+$fieldnames = array(
+  'voornaam', 'achternaam', 'email', 'username', 'password'
 
-$POST
+);
 
-if (condition) {
-  # code...
-} else (){
+$error = False;
 
+foreach($fieldnames as $fieldname){
+ if (!isset($_POST[$fieldname]) || empty($_POST[$fieldname])){
+   $error = True;
+ }
 }
+
+if(!$error){
+    $db = new database('localhost', 'root', '', 'project1', 'utf8_decode(data)');
+} else {
+    if (isset ($_POST)['submit'])) {
+
+    }
+}
+
+$db ->addAccount($voornaam, $tussenvoegsel, $achternaam, $email, $username, $password);
+
+
 ?>
 
 
